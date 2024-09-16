@@ -1,0 +1,97 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #000000; /* Black header */
+    color: #ffffff; /* White text */
+    opacity: 0.70;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000; /* Black header */
+    height: 55px; /* Reduced height */
+    padding: 0 1rem; /* Reduced padding */
+}
+
+.title {
+    font-family: 'Lufga', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem; /* Further reduced font size */
+    color: #ffffff; /* White text */
+}
+
+.searchbar {
+    margin-left: auto; /* Pushes the searchbar to the right */
+    height: 1.5rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+.searchbar input {
+    border: 1px solid #ffffff; /* White border */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; /* Reduced border radius */
+    height: 1.3rem; /* Further reduced height */
+    width: 15rem; /* Further reduced width */
+    padding: 0 0.4rem; /* Adjusted padding inside the input */
+    font-size: 0.8rem; /* Reduced font size */
+    color: #000000; /* Black text */
+    background-color: #ffffff; /* White background */
+}
+
+.search_icon {
+    height: 1.3rem; /* Further reduced height */
+    width: 1.3rem; /* Further reduced width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 4px; /* Reduced border radius */
+    border-top-right-radius: 4px;
+    background-color: #ffffff; /* White background */
+}
+
+.search_icon i {
+    font-size: 0.9rem; /* Further reduced icon size */
+    color: #000000; /* Black icon color */
+}
+
+.title_second {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem; /* Further reduced gap */
+    font-size: 1rem; /* Reduced font size */
+    padding-right: 2rem;
+}
+
+.home_logo,
+.profile_logo,
+.setting_icon {
+    color: #ffffff; /* White icons */
+    font-size: 1.2rem; /* Reduced icon size */
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.icon-bg {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 0.5rem;
+}
+
+
+.title:hover,
+.search_icon:hover,
+.home_logo:hover,
+.profile_logo:hover,
+.setting_icon:hover {
+    cursor: pointer;
+}
