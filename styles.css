@@ -1,0 +1,96 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #000000; /* Black header */
+    color: #ffffff; /* White text */
+}
+.title_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This pushes the searchbar to the right */
+    background-color: #000000; /* Black header */
+    height: 60px; /* Height of the header */
+    padding: 0 1rem;
+}
+
+.title {
+    font-family: 'Lufga', sans-serif;
+    font-weight: bolder;
+    font-size: 1.0rem; /* Reduced font size */
+    color: #ffffff; /* White text */
+}
+
+
+.searchbar {
+    margin-left: auto; /* Pushes the searchbar to the right */
+    height: 1.5rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+.searchbar input {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    height: 1.5rem;
+    width: 20rem;
+    padding: 0 0.5rem;
+    font-size: 0.9rem;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.search_icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.search_icon i {
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+
+.title:hover,
+.search_icon:hover,
+.home_logo:hover,
+.profile_logo:hover,
+.setting_icon:hover {
+    cursor: pointer;
+}
+
+
+
+.title_second {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem; /* Reduced gap */
+    font-size: 1.1rem; /* Reduced font size */
+}
+
+.home_logo,
+.profile_logo,
+.setting_icon {
+    color: #ffffff; /* White icons */
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.icon-bg {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 0.5rem;
+}
+
+/* Add any additional styles here */
